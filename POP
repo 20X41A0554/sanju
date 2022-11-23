@@ -1,0 +1,7 @@
+pipeline{
+agent any{
+stages{
+stage('check validate'){
+echo ' I am validating'
+}
+}
